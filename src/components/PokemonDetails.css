@@ -1,0 +1,42 @@
+.pokemon-details {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+  position: fixed;
+  right: 20px; /* Adjust position as needed */
+  top: 48px; /* Align with the generation list */
+  background-color: rgb(21, 21, 21);
+  /* box-shadow: 0 4px 8px rgba(252, 252, 252, 0.938); */
+  height: 480 px; /* Adjust height to take up the full height minus padding */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+.large-image {
+  filter: drop-shadow(0 0px 10px rgb(255, 255, 255));
+  width: 300px;
+  height: 350px;
+}
+
+.pokemon-details h2 {
+  color: white;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.pokemon-details p {
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .pokemon-details {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    margin: 20px;
+    width: 683px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

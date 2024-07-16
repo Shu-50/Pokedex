@@ -1,0 +1,14 @@
+input {
+  border-radius: 13px;
+  border: 2px red;
+  padding: 10px 81px;
+  margin: 18px 254px;
+  /* position: relative;
+    right:109px ; */
+}
+
+@media (max-width: 480px) {
+  input {
+    margin: 18px;
+  }
+}

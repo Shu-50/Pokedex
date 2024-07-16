@@ -1,0 +1,28 @@
+.pokemon-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.1);
+}
+
+.pokemon-card img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 480px) {
+  .pokemon-card {
+    width: 134px;
+    height: 234px;
+  }
+}
